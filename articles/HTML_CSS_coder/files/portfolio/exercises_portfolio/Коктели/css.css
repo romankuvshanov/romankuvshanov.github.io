@@ -1,0 +1,23 @@
+div {
+    position: relative;
+}
+
+.content {
+    width: 25%;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 5px solid gray;
+}
+
+.a {
+    width: 10%;
+    position: absolute;
+    left: 0;
+    bottom: 0.25em;
+}
+
+.b {
+    width: 10%;
+    transform: translateX(-100%) rotate(180deg);
+    position: absolute;
+}

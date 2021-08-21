@@ -1,0 +1,30 @@
+body {
+    background: #F5F5F5;
+}
+
+section {
+    background: #E1E1E1;
+}
+
+header {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    background: #D63138;
+}
+
+ul {
+    padding: 15px 5px 10px 5px;
+    background: white;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: underline;
+    padding: 0 0 5px 0;
+}

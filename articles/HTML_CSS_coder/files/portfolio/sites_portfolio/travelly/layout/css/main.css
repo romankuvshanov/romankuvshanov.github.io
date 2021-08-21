@@ -1,0 +1,228 @@
+/* General Styles */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+header {
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header .logo-and-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 32px;
+}
+
+header h1 {
+    font-size: 52px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .row.title {
+    margin-top: 235px;
+    padding-bottom: 206px;
+}
+
+header form.search input {
+    border: none;
+    height: 40px;
+    width: 326px;
+    padding: 0;
+    box-sizing: border-box;
+    padding-left: 14px;
+}
+
+header form.search button {
+    border: none;
+    height: 40px;
+    width: 121px;
+    padding: 0;
+    background: #fd4f32;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+/* section.destinations */
+
+.destinations {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background: #eee;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.destinations h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.destinations p {
+    font-size: 15px;
+    color: #8b8b8b;
+    margin-bottom: 30px;
+}
+
+.destinations .row.places {
+    margin-right: -6.5px;
+    margin-left: -6.5px;
+}
+
+.destinations .row.places .col-12 {
+    padding-right: 6.5px;
+    padding-left: 6.5px;
+    margin-bottom: 13px;
+}
+
+.destinations .row.places img {
+    width: 100%;
+}
+
+.destinations .row.places .text {
+    background: white;
+    box-sizing: border-box;
+    padding: 20px;
+    border-bottom: 2px solid #e1e0d8;
+    position: relative;
+}
+
+.destinations .row.places .text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.destinations .row.places .text p {
+    font-size: 13px;
+    color: #696969;
+    margin-bottom: 20px;
+}
+
+.destinations .row.places .text span {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+    top: -30px;
+    right: 15px;
+    font-size: 13px;
+}
+
+/* section.before-you-leave */
+
+.before-you-leave {
+    border-bottom: 1px solid #e7e7e7;
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+.before-you-leave h1 {
+    font-size: 52px;
+    font-weight: 300;
+    margin-bottom: 55px;
+}
+
+.before-you-leave h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.before-you-leave .row p {
+    font-size: 15px;
+    color: #8b8b8b;
+}
+
+.before-you-leave .row {
+    margin-bottom: 35px;
+}
+
+.before-you-leave .row .col-md-4 {
+    margin-bottom: 30px;
+}
+
+.before-you-leave .container > h2 {
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.before-you-leave form.subscribe  {
+    text-align: center;
+}
+
+.before-you-leave form.subscribe input {
+    border: none;
+    height: 40px;
+    width: 326px;
+    padding: 0;
+    box-sizing: border-box;
+    padding-left: 14px;
+    background: #eee;
+}
+
+.before-you-leave form.subscribe button {
+    border: none;
+    height: 40px;
+    width: 151px;
+    padding: 0;
+    background: #fd4f32;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    background: #eee;
+    padding-top: 1rem;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+footer p {
+    font-size: 14px;
+    color: #8b8b8b;
+}
+
+footer nav ul {
+    padding-left: 0;
+}
+
+footer nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer nav li:last-child {
+    margin-right: 0;
+}
+
+footer nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #323232;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}

@@ -1,0 +1,26 @@
+article {
+    background: #F5F6F8;
+    border-radius: 5px;
+    border: 1px solid #EBEBEF;
+    text-align: right;
+    height: 30vh;
+    font-family: sans-serif;
+}
+
+img {
+    height: 100%;
+    float: right;
+    border-radius: 50%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 1.5%;
+    margin-bottom: 4%;
+}

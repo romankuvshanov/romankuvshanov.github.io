@@ -1,0 +1,304 @@
+.title-and-bg {
+    height: 350px;
+    background: url(../img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.title-and-bg .container {
+    margin: auto 0 auto 87px;
+}
+
+
+.title-and-bg h1 {
+    font-weight: 300;
+    font-size: 48px;
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    display: inline-block;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+    padding: 0 40px;
+}
+
+.title-and-bg h2, #our-story-our-skills h1 {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-top: 34px;
+}
+
+.porfolio-nav .container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    
+}
+
+.porfolio-nav a {
+    line-height: 60px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-left: 1px solid #ebebeb;
+    padding: 0px 29px;
+}
+
+.fas {
+    margin: 0 10px;
+}
+
+.porfolio-nav a:last-child {
+    border-right: 1px solid #ebebeb;
+}
+
+#creative-agency {
+    background: #fafafa;
+    padding-top: 65px;
+}
+
+#creative-agency .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-for-good, .imgs {
+    width: 48%;
+}
+
+.title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+}
+
+.title h1 {
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 16px;
+    color: #555;
+    margin-top: 7px;
+    letter-spacing: 0.5px;
+}
+
+.description {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 50px;
+}
+
+.description h3 {
+    margin-top: 29px;
+    font-size: 14px;
+    margin-bottom: 31px;
+}
+
+.description h3 span {
+    margin-left: 64px;
+}
+
+.description p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #777;
+}
+
+.tags-and-roles {
+    margin-top: 40px;
+}
+
+.tags-and-roles h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin-bottom: 17px;
+}
+
+.tags-and-roles p {
+    font-size: 16px;
+    color: #999;
+    letter-spacing: 0.4px;
+    margin-bottom: 54px;
+}
+
+.share-btns p#share {
+    height: 42px;
+    font-weight: bold;
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
+    width: 87px;
+    border-radius: 3px;
+    background: #707070;
+    color: white;
+    line-height: 42px;
+    text-transform: uppercase;
+} 
+
+.share-btns .fas {
+    margin-left: 0;
+}
+
+.share-btns p#social-btns {
+    display: inline-block;
+    background: #e1e1e1;
+    margin-left: 13px;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.share-btns p#social-btns::before {
+    content: '';
+    position: absolute;
+    left: -14px;
+    top: 13.5px;
+    border: 7px solid transparent;
+    border-right: 7px solid #e1e1e1;
+    
+}
+
+.share-btns p#social-btns a {
+    color: #707070;
+    text-decoration: none;
+    margin-right: 22px;
+}
+
+.share-btns p#social-btns a:last-child {
+    margin-right: 0;
+}
+
+.imgs .current {
+    width: 100%;
+    height: 358px;
+}
+
+.other-goods {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+img.other {
+    width: 23.5%;
+    height: 119px;
+    object-fit: cover;
+    margin: 0;
+}
+
+#related-works {
+    padding-top: 135px;
+    padding-bottom: 63px;
+    background: #fafafa;
+}
+
+
+#related-works h1 {
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+#related-works p {
+    text-align: center;
+    max-width: 610px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 30px;
+    color: #777;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.card {
+    width: 31.3%;
+    background: white;
+    text-align: left;
+    background: #fafafa;
+}
+
+.card img {
+    width: 100%;
+}
+
+@media (max-width:700px) {
+    #creative-agency {
+        padding-top: 15px;
+    }
+    
+    #creative-agency .wrapper {
+        flex-direction: column-reverse;
+    }
+    
+    .text-for-good, .imgs {
+        width: inherit;
+    }
+    
+    .imgs {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:550px) {
+    #cards {
+        flex-direction: column;
+        margin-top: 26px;
+    }
+    
+    .card {
+        width: auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:425px) {
+    .porfolio-nav a {
+        padding: 0 7px;
+    }
+    
+    .fas {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width:375px) {
+    .title-and-bg .container {
+        margin: auto;
+    }
+    
+    .share-btns {
+        text-align: center;
+    }
+    
+    #share {
+        margin-bottom: 10px;
+    }
+    
+    .share-btns p#social-btns {
+        margin-left: 0;
+    }
+    
+    .share-btns p#social-btns::before {
+        display: none;
+    }
+    
+    
+}

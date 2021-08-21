@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Owl carousel test</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="libs/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owl-carousel/assets/owl.theme.default.min.css">
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items: 1,
+                nav: false,
+                dots: true,
+                loop: true,
+                autoplay: true,
+                smartSpeed: 3000,
+                autoplayTimeout: 5000
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Owl carousel test</h1>
+    <div class="owl-carousel">
+        <img src="img/ds.jpg" alt="">
+        <img src="img/mo.jpg" alt="">
+    </div>
+</body>
+</html>

@@ -1,0 +1,195 @@
+.title-and-bg {
+    height: 350px;
+    background: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.title-and-bg .container {
+    margin: auto 0 auto 87px;
+}
+
+
+.title-and-bg h1 {
+    font-weight: 300;
+    font-size: 48px;
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    display: inline-block;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+    padding: 0 40px;
+}
+
+.title-and-bg h2, #our-story-our-skills h1 {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-top: 34px;
+}
+
+article {
+    padding-top: 65px;
+}
+
+article h1 {
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    text-align: center;
+}
+
+article h2 {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+    margin-top: 14px;
+}
+
+article h2 span {
+    margin-right: 65px;
+}
+
+article h2 span:last-child {
+    margin-right: 0;
+}
+
+article img {
+    display: block;
+    width: 100%;
+    padding: 0 97px;
+    box-sizing: border-box;
+    margin-top: 24px;
+    height: 480px;
+    object-fit: cover;
+    margin-bottom: 42px;
+}
+
+article p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #777;
+    max-width: 810px;
+    margin: 0 auto;
+    margin-bottom: 31px;
+}
+
+article blockquote {
+    max-width: 945px;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    line-height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    border-left: 4px solid #c8c8c8;
+    padding: 14px 30px 24px 40px;
+    margin: 0 auto;
+    margin-top: -9px;
+    margin-bottom: 37px;
+}
+
+article h3 {
+    max-width: 810px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 15px;
+}
+
+.comment h1 {
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 73px;
+    text-align: center;
+}
+
+form {
+    max-width: 810px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+
+input:not([type="submit"]) {
+    width: 30.95%;
+    padding: 9px 0 9px 15px;
+    box-sizing: border-box;
+    font-style: italic;
+    border: 1px solid rgb(169, 169, 169);
+}
+
+input:not([type="submit"]):focus, textarea:focus {
+    border-left: 3px solid gray;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 22px;
+    height: 112px;
+    box-sizing: border-box;
+    padding-top: 13px;
+    padding-left: 15px;
+    resize: none;
+    font-style: italic;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    border-radius: 2px;
+    height: 42px;
+    background: black;
+    color: white;
+    width: 195px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 24px;
+    letter-spacing: 0.8px;
+    margin-bottom: 85px;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    article img {
+        padding: 0;
+    }
+    
+    .title-and-bg .container {
+        margin: auto;
+    }
+    
+    .title-and-bg h1 {
+        padding: 0;
+        max-width: 320px;
+    }
+    
+    article h2 span {
+        margin-right: 25px;
+    }
+}
+
+@media (max-width:320px) {
+    .title-and-bg h1 {
+        max-width: 180px;
+    }
+    
+    article h2 {
+        font-size: 13px;
+    }
+    
+    article h2 span {
+        margin-right: 5px;
+    }
+}

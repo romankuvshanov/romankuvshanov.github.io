@@ -1,0 +1,18 @@
+body {
+    background: #efeeee;
+}
+
+h1 {
+    font-weight: 500;
+    color: #A52B2B;
+    margin-left: 4px;
+}
+
+p {
+    margin-left: 80px;
+    border-left: 2px solid #DDD;
+    border-bottom: 2px solid #DDD;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 0.95em;
+}

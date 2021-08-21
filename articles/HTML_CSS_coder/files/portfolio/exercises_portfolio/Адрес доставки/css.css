@@ -1,0 +1,39 @@
+form {
+    float: left;
+    margin-left: 15px;
+    text-align: right;
+}
+
+.group {
+    text-align: right;
+    margin: 15px 0;
+}
+
+.group:first-child {
+    margin-top: 10px;
+}
+
+label {
+    margin-right: 15px;
+}
+
+input[type="submit"] {
+    background: #B88F3F;
+    color: white;
+    border: thick solid #D0C2A6;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 5px;
+    width: 116px;
+    margin-right: 163px;
+}
+
+input[type="text"] {
+    background: #EBE8DF;
+    box-sizing: border-box;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+    width: 279px;
+}

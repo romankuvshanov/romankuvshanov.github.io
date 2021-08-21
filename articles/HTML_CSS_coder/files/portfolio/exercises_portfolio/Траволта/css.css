@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+    background: url(Travolta.jpg) no-repeat;
+    background-size: cover;
+}
+
+p {
+    position: absolute;
+    left: 50%;
+    margin-left: -152.5px;
+    top: 50%;
+    margin-top: -97.5px;
+    font-size: 10em;
+    color: white;
+    font-family: Verdana;
+}

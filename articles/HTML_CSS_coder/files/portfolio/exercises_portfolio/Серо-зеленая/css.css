@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.green {
+    width: 100%;
+    height: 35vh;
+    background: #A1BD57;
+    position: relative;
+}
+
+.gray {
+    width: 100%;
+    height: 65vh;
+    background: #F7F6F2;
+}
+
+.white {
+    width: 60%;
+    height: 75%;
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    background: white;
+    border: 3px solid #DAD6CF;
+}

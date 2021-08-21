@@ -1,0 +1,232 @@
+.title-and-bg {
+    height: 350px;
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.title-and-bg .container {
+    margin: auto 0 auto 87px;
+}
+
+
+.title-and-bg h1 {
+    font-weight: 300;
+    font-size: 48px;
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    display: inline-block;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+    padding: 0 40px;
+}
+
+.title-and-bg h2, #our-story-our-skills h1 {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-top: 34px;
+}
+
+#office-info {
+    padding-top: 82px;
+    background: #fafafa;
+}
+
+#office-info .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#office-info h1 {
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+#office-info h2 {
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 7px;
+    letter-spacing: 0.4px;
+    margin-bottom: 60px;
+}
+
+#office-info p {
+    font-size: 15px;
+    color: #777;
+    letter-spacing: 0.9px;
+    margin-bottom: 30px;
+}
+
+#office-info p.tel {
+    margin-bottom: 6px;
+}
+
+#office-info span {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin-right: 8px;
+    letter-spacing: 0.6px;
+}
+
+#office-info .tel span {
+    color: #555;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2px;
+    max-width: 748px;
+    width: 100%;
+}
+
+input:not([type="submit"]) {
+    width: 47.95%;
+    padding: 11px 0 11px 15px;
+    box-sizing: border-box;
+    font-style: italic;
+    border: 1px solid rgb(169, 169, 169);
+}
+
+input:not([type="submit"]):focus, textarea:focus {
+    border-left: 3px solid gray;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 32px;
+    height: 150px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-left: 12px;
+    resize: none;
+    font-style: italic;
+}
+
+input[type="submit"] {
+        display: block;
+    border-radius: 2px;
+    height: 39px;
+    background: black;
+    color: white;
+    width: 216px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 29px;
+    letter-spacing: 0.8px;
+    margin-bottom: 79px;
+    cursor: pointer;
+}
+
+#map {
+    filter: grayscale(0.8)
+}
+
+#map iframe {
+    display: block;
+}
+
+#our-values {
+    padding-top: 60px;
+    padding-bottom: 52px;
+    background: #fafafa;
+}
+
+
+#our-values h1 {
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+#our-values p {
+    text-align: center;
+    max-width: 610px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 30px;
+    color: #777;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+}
+
+.card {
+    width: 31.3%;
+    background: white;
+    text-align: left;
+    background: #fafafa;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 17px;
+    font-size: 18px;
+    letter-spacing: 7.1px;
+}
+
+#cards p {
+    text-align: left;
+    line-height: 30px;
+    margin-top: 31px;
+}
+
+@media (max-width:1024px) {
+    form {
+        width: 60%;
+    }
+}
+
+@media (max-width:768px) {
+    .title-and-bg .container {
+        margin: auto;
+    }
+    
+    .title-and-bg h1 {
+        padding: 0;
+        max-width: 210px;
+    }
+
+}
+
+@media (max-width:650px)  {
+    #office-info .container {
+        flex-direction: column;
+    }
+    
+    form {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    #cards {
+        flex-direction: column;
+        margin-top: 14px;
+    }
+    
+    .card {
+        margin-top: 40px;
+        width: auto;
+    }
+}

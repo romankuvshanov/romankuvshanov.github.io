@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16" data-mce-href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32" data-mce-href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96" data-mce-href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192" data-mce-href="/android-chrome-192x192.png">
+        <title>Anna Blok - portfolio</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <img src="img/portrait_round.png" alt="My portrait in round frame">
+                <h1>Hello, my name is Anna and I create cool websites</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                <a href="#" class="hire-me-button">Hire me</a>
+                <a href="#scroll" id="arrow-down"></a>
+            </div>
+        </header>
+        
+        <section class="block-scroll">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                </p>
+            </div>
+        </section>
+        
+        <section class="blue">
+            <div class="container">
+                <h2>Expert In</h2>
+                
+                <div class="flexbox">
+                    <div class="block">
+                        <div class="icon" id="mobile-app-icon">
+                        
+                        </div>
+                        <h3>MOBILE APP DESIGN</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad</p>
+                    </div>
+                
+                
+                
+                    <div class="block">
+                        <div class="icon" id="web-design-icon">
+                        
+                        </div>
+                        <h3>WEB DESIGN</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                
+                
+                
+                    <div class="block">
+                        <div class="icon" id="web-development-icon">
+                        
+                        </div>
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
+                <h2>Latest Works</h2>
+                
+                <div class="flexbox">
+                    <div class="block">
+                        <div class="img-wrapper">
+                            <a href="#"><img src="img/work_1.jpg" alt="Man with sunflower head"></a>
+                        </div>
+                    </div>
+                
+                
+                
+                    <div class="block">
+                        <div class="img-wrapper">
+                            <a href="#"><img src="img/work_2.jpg" alt="American roadway with palms on the sidewalks"></a>
+                        </div>
+                    </div>
+                
+                
+                
+                    <div class="block">
+                        <div class="img-wrapper">
+                            <a href="#"><img src="img/work_3.jpeg" alt="Sky art"></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <footer>
+            <div class="container flexbox">
+                <p>Need a web developer? <span>Ready to work!</span></p>
+                <a href="#" class="hire-me-button">Hire me</a>
+            </div>
+            <a class="btn-up" href="#"></a>
+        </footer> 
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function(){ 
+                $(window).scroll(function(){ 
+                    if($(this).scrollTop()!=0){ 
+                        $('.btn-up').fadeIn(); 
+                    } 
+                    else{ 
+                        $('.btn-up').fadeOut(); 
+                    } 
+                }); 
+                $('.btn-up').click(function(){ 
+                    $('body,html').animate({scrollTop:0},500); 
+                }); 
+            });
+            
+            $(function() { 
+                $('a[href="#scroll"]').click(function(event) { 
+                    event.preventDefault() 
+                    var el = $('.block-scroll'); 
+                    $('body,html').animate({ 
+                        scrollTop: $(el).offset().top 
+                    }, 1000); 
+                }); 
+            }); 
+</script>
+    </body>
+</html>

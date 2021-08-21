@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: 1px solid #EBEBEF;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+}
+
+li:first-child {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: black;
+}
+
+li:last-child {
+    border-bottom: none;
+    color: black;
+}
+
+li:nth-child(3n+2) {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: black;
+}
+
+li {
+    padding: 7px 0;
+    border-bottom: 1px solid #EBEBEF;
+    line-height: 28px;
+    color: #909090;
+}
+
+span {
+    float: right;
+}
+
+#final-price {
+    color: deepskyblue;
+    font-size: 1.3em;
+}

@@ -34,6 +34,10 @@ header a {
 	color: black;
 }
 
+header a:hover {
+	text-decoration: underline;
+}
+
 header p {
     font-size: 36px;
     margin-top: -8px;
@@ -101,6 +105,13 @@ section.contacts h1 {
 
 section.contacts p {
     font-size: 20px;
+	margin-bottom: 10px;
+}
+
+section.contacts img {
+	width: 22px;
+    height: 22px;
+	vertical-align: top;
 }
 
 section.article {

@@ -1,0 +1,29 @@
+div {
+    border: 1px solid #DDD;
+    border-bottom: none;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    background: #F5F4F1;
+    margin: 0;
+    font-weight: bold;
+    color: #444;
+}
+
+a:hover {
+    background: #BC8E5C;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    display: block;
+    margin: 0;
+    padding: 7px;
+    border-bottom: 1px solid #DDD;
+    
+}

@@ -1,0 +1,49 @@
+body {
+    background: #F5F4F1;
+}
+
+form {
+    padding: 2%;
+    background: white;
+    margin: 4% 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10%;
+}
+
+input[type="submit"],
+input[type="text"],
+input[type="password"] {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+input[type="password"] {
+    margin-top: 2.5%;
+}
+
+input[type="submit"] {
+    padding: 0;
+    height: 2.7em;
+    background: #BC8E5C;
+    border: none;
+    color: white;
+    margin-bottom: 10%;
+}
+
+div {
+    display: inline-block;
+    float: right;
+    margin: 2% 10% 2% 0;
+}
+
+label {
+    font-style: italic;
+}

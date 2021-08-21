@@ -1,0 +1,52 @@
+body {
+    background: #F7F9FA;
+}
+
+article {
+    width: 60%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 1%;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0 15%;
+    color: #868686;
+}
+
+.three-dots {
+    text-align: center;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background: #FF634A;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0.75%;
+}
+
+a {
+    display: inline-block;
+    background: #FF634A;
+    text-decoration: none;
+    padding: 3% 5%;
+    color: white;
+    border-radius: 100px;
+    margin-bottom: 5%;
+    font-family: sans-serif;
+}

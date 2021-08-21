@@ -1,0 +1,25 @@
+ol {
+    background: #F0F0F0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+li::first-letter {
+    background: #D4D8D3;
+    border-radius: 50%;
+    padding: 5px 12px;
+    margin: 0 3px 0 0;
+}
+
+li:nth-child(3n)::first-letter {
+    background: #91BE4A;
+    color: white;
+}

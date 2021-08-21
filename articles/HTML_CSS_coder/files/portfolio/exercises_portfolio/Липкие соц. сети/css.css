@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background: #F8F8F8;
+}
+
+header {
+    background: #333;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    margin-left: 20%;
+    padding: 3.5%;
+    font-size: 1.8em;
+}
+
+p {
+    width: 53%;
+    margin: 10px auto;
+    background: white;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    height: 2000px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+div {
+    width: 7%;
+    float: left;
+    margin: 10px;
+    position: sticky;
+    top: 0;
+    
+}
+
+img {
+    width: 100%;
+}

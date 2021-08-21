@@ -1,0 +1,1063 @@
+/* Общие стили */
+@font-face {
+    font-family: "MyriadPro-site";
+    src: url("../fonts/MyriadPro-Regular.ttf");
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "MyriadPro-site";
+    src: url("../fonts/MyriadPro-Bold.ttf");
+    font-weight: bold; 
+}
+
+@font-face {
+    font-family: "MyriadPro-site";
+    src: url("../fonts/MyriadPro-Semibold.ttf");
+    font-weight: 600; 
+}
+
+* {
+    font-family: "MyriadPro-site", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.container {
+    max-width: 1143px;
+    min-width: 1143px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.colored-button {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 25px 30px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgb(38,75,117) 0%, rgb(9,177,116) 100%);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.outline-button {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 23px 47px;
+    border-radius: 10px;
+    background: transparent;
+    border: 3px solid white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-wrapper {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 50px;
+    color: #396da8;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.underlined-input::placeholder {
+    color: white;
+}
+
+.underlined-input {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    border-bottom: 2px solid white;
+    height: 52px;
+    width: 500px;
+}
+
+/* Header */
+
+header {
+    margin-bottom: 24px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.logo {
+    text-align: center;
+}
+
+
+#logo-colored {
+    font-size: 27.39px;
+    color: #396da8;
+}
+
+#logo-text {
+    font-size: 14px;
+}
+
+header nav ul {
+    padding-left: 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+header nav li:last-child {
+    margin-right: 0;
+}
+
+header nav li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.call {
+    text-align: right;
+}
+
+#number {
+    font-size: 32px;
+}
+
+#ask-call a {
+    font-size: 24px;
+    text-decoration: underline;
+    color: #08a169;
+}
+
+/* Section.main */
+
+#territory-info {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.main-text {
+    width: 69%;
+}
+
+.main-text h1 {
+    font-size: 50px;
+    color: #396da8;
+    text-transform: uppercase;
+    margin-bottom: 106px;
+}
+
+#money-back {
+    font-size: 40px;
+    color: #396da8;
+    line-height: 35px;
+    margin-bottom: 64px;
+}
+
+#money-back span {
+    font-size: 30px;
+}
+
+#first-month {
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 150px;
+    margin-bottom: 130px;
+}
+
+#seven-contracts {
+    font-size: 26.27px;
+    margin-left: 20px;
+    margin-bottom: 39px;
+}
+
+#not-for-you {
+    font-weight: bold;
+    color: #264b75;
+    font-size: 26.27px;
+    margin-left: 75px;
+    margin-bottom: 62px;
+}
+
+.main .colored-button {
+    margin-bottom: 100px;
+}
+
+/* Section.is-for-you */
+
+.is-for-you {
+    background: url(../img/bg_is_for_you.png);
+    padding-top: 59px;
+    padding-bottom: 79px;
+    text-align: center;
+    background-position: center;
+}
+
+.is-for-you h1 {
+    font-size: 44px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 81px;
+}
+
+.is-for-you .container div {
+    width: 1029px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.is-for-you .container div p {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    font-size: 30.34px;
+}
+
+#lawyer {
+    float: right;
+    position: relative;
+    left: 50px;
+}
+
+/* section.why-we */
+
+.why-we {
+    padding: 110px 0;
+}
+
+.why-we h1 {
+    margin-bottom: 80px;
+}
+
+.why-we h2 {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.why-we p {
+    font-size: 30px;
+}
+
+#we-will-be-with-you-italic {
+    margin-top: 50px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.benefits {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.benefit {
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.benefit p {
+    text-align: left;
+    font-size: 22px;
+    margin-top: 45px;
+}
+
+/* section.thirty-five-percentages */
+
+.thirty-five-percentages {
+    background: url(../img/bg_thirty_five_percentages.png);
+    padding: 75px 0;
+    background-position: center;
+}
+
+.thirty-five-percentages .grid {
+    width: 979px;
+    max-width: initial;
+    min-width: initial;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 70px;
+    background-position: center;
+}
+
+.thirty-five-percentages .grid-item h1 {
+    font-size: 44px;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 169px;
+}
+
+.thirty-five-percentages .grid-item h2 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 29px;
+    color: white;
+}
+
+.thirty-five-percentages form {
+    background: white;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.thirty-five-percentages form h1 {
+    font-weight: normal;
+    font-size: 22.35px;
+    margin-bottom: 24px;
+}
+
+.thirty-five-percentages form h2 {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+
+.thirty-five-percentages form input::placeholder {
+    font-size: 14px;
+}
+
+.thirty-five-percentages form input:last-child {
+    margin-bottom: 27px;
+}
+
+.thirty-five-percentages form input {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.thirty-five-percentages form .colored-button {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.thirty-five-percentages form p, .policy {
+    color: #adadad;
+    font-size: 13,34px;
+}
+
+/* Section.important */
+
+section.important {
+    padding: 75px 0;
+    text-align: center;
+}
+
+section.important h2 {
+    position: relative;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 54px;
+}
+
+section.important h2 span {
+    background: #09b174;
+    padding: 8px 37px;
+}
+
+section.important h2:before,
+section.important h2:after {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  width: 35%;
+  height: 2px;
+  vertical-align: middle;
+  background: #09b174;
+}
+
+section.important h2:before {
+  margin-left: -50%;
+}
+
+section.important h2:after {
+  margin-right: -50%;
+}
+
+section.important h1 {
+    font-size: 46.34px;
+    color: #396da8;
+    text-decoration: underline;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section.important h1 span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+section.important ul {
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 57px;
+}
+
+section.important li {
+    font-size: 24px;
+    list-style-type: none;
+    position: relative;
+}
+
+section.important li::before {
+    color: #09b174;
+    font-size: 138px;
+    content: "·";
+    line-height: 17px;
+    position: absolute;
+    left: -40px;
+    top: 0px;
+}
+
+#line {
+    width: 986px;
+    height: 2px;
+    display: inline-block;
+    background: #09b174;
+}
+
+/* section.real-price */
+
+.real-price {
+    padding: 114px 0;
+    background: url(../img/bg_is_for_you.png);
+}
+
+.real-price .container {
+    width: 1029px;
+    min-width: initial;
+    max-width: initial;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.real-price p {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+/* section.our-deal */
+
+.our-deal {
+    padding: 100px 0;
+}
+
+.our-deal h1 {
+    margin-bottom: 96px;
+}
+
+.deal-items {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 70px;
+    grid-column-gap: 85px;
+}
+
+.deal-item {
+    grid-template-columns: 181px 1fr;
+    grid-column-gap: 20px;
+}
+
+.deal-item p {
+    font-size: 20px;
+}
+
+.deal-item .title {
+    font-size: 32px;
+    margin-bottom: 55px;
+}
+
+/* container.first-month */
+
+.first-month {
+    padding: 60px 0 160px 0;
+    background: url(../img/bg_first_month.png);
+    background-position: center;
+}
+
+.first-month h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 62px;
+    color: white;
+    font-weight: normal;
+}
+
+.first-month h2 {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.first-month .outline-button {
+    font-size: 20px;
+    text-align: center;
+}
+
+.first-month .flex {
+    width: 950px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* section.how-it-works */
+
+.how-it-works {
+    padding-top: 80px;
+    padding-bottom: 140px;
+}
+
+.how-it-works h1 {
+    margin-bottom: 70px;
+}
+
+.how-it-works h2 {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    color: #396da8;
+    margin-bottom: 105px;
+}
+
+.block {
+    grid-template-columns: 1fr 22px 1fr;
+    grid-column-gap: 60px;
+    margin-bottom: 15px;
+}
+
+.block:nth-child(2n) .dot-and-line {
+    order: 1;
+}
+
+.block:nth-child(2n) .text {
+    order: 2;
+    text-align: left;
+}
+
+.block .text {
+    text-align: right;
+}
+
+.block .text h3 {
+    font-size: 40px;
+    color: #09b174;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.block .text p {
+    font-size: 26px;
+}
+
+.block .dot-and-line {
+    text-align: center;
+    overflow: hidden;
+}
+
+.block .dot {
+    border-radius: 50%;
+    background: #09b174;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.block .line {
+    background: #84d8b9;
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+}
+
+/* section.get-documents-and-insructions */
+
+.get-documents-and-insructions {
+    grid-template-columns: 1fr 1fr;
+}
+
+.get-documents-and-insructions img {
+    width: 100%;
+    height: 818px;
+    object-fit: cover;
+}
+
+.get-documents-and-insructions div {
+    padding-left: 50px;
+    background: url(../img/get-documents-and-insructions_bg.png);
+    background-position: center;
+}
+
+.get-documents-and-insructions h2 {
+    margin-top: 95px;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.get-documents-and-insructions h1 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 90px;
+}
+
+.get-documents-and-insructions ul {
+    margin-bottom: 25px;
+}
+
+.get-documents-and-insructions ul li {
+    font-size: 25px;
+    color: white;
+}
+ 
+.get-documents-and-insructions .underlined-input {
+    margin-bottom: 40px;
+}
+
+/* section.pop-questions */
+
+.pop-questions {
+    padding-top: 105px;
+}
+
+.pop-questions h1 {
+    margin-bottom: 83px;
+}
+
+.guestions {
+    margin-bottom: 115px;
+}
+
+.question {
+    width: 780px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border: 1px solid #e8e8e8;
+    padding: 24px 17px 20px 47px;
+    margin-bottom: 10px;
+}
+
+.question p {
+    display: inline-block;
+    font-size: 30px;
+    color: #396da8;
+    font-weight: bold;
+}
+
+.pop-questions h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #396da8;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.pop-questions form {
+    text-align: center;
+}
+
+.pop-questions input:first-child {
+    margin-bottom: 15px;
+}
+
+.pop-questions input {
+    border-color: black;
+    color: #6e6d6d;
+    width: 100%;
+    max-width: 693px;
+    
+}
+
+.pop-questions input::placeholder {
+    color: #6e6d6d;
+}
+
+.pop-questions .colored-button {
+    display: inline-block;
+    margin-top: 55px;
+    padding: 25px 100px;
+    border: none;
+}
+
+/* section.facts-about-us */
+
+.facts-about-us {
+    background: url(../img/bg_facts-about-us.png);
+    background-position: bottom;
+    padding-top: 175px;
+    color: white;
+    background-repeat: no-repeat;
+    padding-bottom: 121px;
+    margin-top: -70px;
+}
+
+.facts-about-us h1 {
+    color: white;
+    margin-bottom: 90px;
+}
+
+.facts-about-us h2 {
+    font-size: 30px;
+    font-style: italic;
+    max-width: 864px;
+    margin: 0 auto;
+    margin-bottom: 148px;
+}
+
+.facts {
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 100px;
+}
+
+.fact h3 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 13px;
+    border-bottom: 2px solid white;
+    margin-bottom: 13px;
+}
+
+.fact p {
+    font-size: 18px;
+}
+
+/* section.our-team */
+
+.our-team {
+    padding-top: 119px;
+    padding-bottom: 206px;
+}
+
+.our-team h1 {
+    margin-bottom: 103px;
+}
+
+.our-team h2 {
+    max-width: 950px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-style: italic;
+    color: #396da8;
+    margin-bottom: 94px;
+}
+
+.team-members {
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 50px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    margin-bottom: 15px;
+}
+
+.member p {
+    font-size: 25px;
+    font-style: italic;
+    word-spacing: 100px; /* Перенос каждого слова на новую строку */
+}
+
+.member .possition {
+    font-size: 35px;
+    font-weight: bold;
+    word-spacing: 100px; /* Перенос каждого слова на новую строку */
+    margin-bottom: 5px;
+}
+
+/* container.first-month */
+
+.free-consultation {
+    padding: 60px 0 160px 0;
+    background: url(../img/bg_free_consultation.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.free-consultation h1 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.free-consultation h2 {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 70px;
+    color: white;
+}
+
+.free-consultation .outline-button {
+    font-size: 20px;
+    text-align: center;
+}
+
+.free-consultation .flex {
+    width: 950px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* section.become-a-client */
+
+.become-a-client {
+    padding: 114px 0;
+    background: url(../img/bg_is_for_you.png);
+}
+
+.become-a-client .container {
+    width: 1029px;
+    min-width: initial;
+    max-width: initial;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.become-a-client p {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+/* section.contacts */
+
+.contacts {
+    padding-top: 84px;
+    padding-bottom: 74px;
+}
+
+.contacts h1 {
+    margin-bottom: 50px;
+}
+
+.contact-us {
+    font-size: 33px;
+    color: #396da8;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+
+.contacts .grid {
+    grid-template-columns: 1fr 513px;
+}
+
+.contact-ways .type {
+    font-size: 33px;
+    color: #969696;
+}
+
+.contact-ways .adress {
+    font-size: 38px;
+    color: #000;
+    margin-bottom: 45px;
+}
+
+.contact-ways .adress:last-child {
+    margin-bottom: 0;
+}
+
+.ask-a-call h2 {
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.ask-a-call input {
+    width: 412px;
+    font-size: 20.57px;
+    color: #a4a4a4;
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    margin-bottom: 60px;
+}
+
+.ask-a-call .colored-button {
+    padding: 25px 60px;
+    margin-bottom: 40px;
+}
+
+.ask-a-call p {
+    font-size: 16px;
+    color: #878787;
+}
+
+/* Maps */
+
+#moscow {
+    margin-bottom: 40px;
+}
+
+iframe {
+    display: block;
+}
+
+/* Footer */
+
+.services {
+    background: #202020;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.service .title {
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.links {
+    justify-content: space-between;
+}
+
+.service li {
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+
+.service a {
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    color: white;
+    background: url(../img/bg_is_for_you.png);
+    background-position: center;
+    padding: 20px 0;
+}
+
+.copyright p {
+    font-size: 20px;
+}
+
+.copyright p span {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+/* section.about-us */
+
+.about-us .container {
+    max-width: 1050px;
+    min-width: 1050px;
+}
+
+.about-us h1 {
+    margin-top: 25px;
+    margin-bottom: 90px;
+}
+
+.about-us h2 {
+    font-size: 30px;
+    font-style: italic;
+    color: #396da8;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.reviews {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review {
+    width: 450px;
+}
+
+.review p.text {
+    font-size: 21px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+    border-radius: 15px;
+    position: relative;
+}
+
+.review p.text span {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 15px;
+}
+
+.review p.text:after {
+    content: '';
+    position: absolute;
+    bottom: 11px;
+    left: 20px;
+    background: white;
+    border: 15px solid transparent;
+    transform: rotate(45deg) translateX(15px) translateY(15px);
+    box-shadow: 0 0 10px 0 #909090;
+}
+
+.review .name {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.review .source {
+    font-size: 22px;
+    color: #6b6b6b;
+    margin-top: -4px;
+    margin-bottom: 35px;
+}

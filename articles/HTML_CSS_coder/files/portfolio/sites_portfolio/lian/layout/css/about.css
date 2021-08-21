@@ -1,0 +1,188 @@
+#our-story-our-skills, #awesome-team {
+    background: #fafafa;
+}
+
+.title-and-bg {
+    height: 350px;
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.title-and-bg .container {
+    margin: auto 0 auto 87px;
+}
+
+
+.title-and-bg h1 {
+    font-weight: 300;
+    font-size: 48px;
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    display: inline-block;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+    padding: 0 40px;
+}
+
+.title-and-bg h2, #our-story-our-skills h1 {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+
+#our-story-our-skills {
+    padding-top: 44px;
+}
+
+#our-story-our-skills .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-wrapper {
+    width: 48%;
+}
+
+.text-wrapper img {
+    width: 100%;
+}
+
+#our-story-our-skills-img {
+    width: 48%;
+    object-fit: cover;
+}
+
+h1#our-skills {
+    margin-top: -6px;
+}
+
+#our-story-our-skills h1 {
+    margin-bottom: 31px;
+    padding-top: 5px;
+}
+
+#our-story-our-skills p, #awesome-team p {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+#awesome-team {
+    clear: both;
+    padding-top: 95px;
+    padding-bottom: 76px;
+}
+
+#awesome-team h1 {
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+#awesome-team p {
+    text-align: center;
+    max-width: 610px;
+    margin: 0 auto;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+
+.card {
+    width: 31.5%;
+    background: white;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.card h3 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #777;
+    margin-top: 4px;
+}
+
+#cards p {
+    text-align: left;
+    line-height: 24px;
+    margin-top: 12px;
+    width: 90%;
+    margin-left: 0;
+}
+
+.card .text {
+    padding-top: 24px;
+    padding-left: 37px;
+    padding-bottom: 24px;
+}
+
+@media (max-width:650px) {
+    .title-and-bg .container {
+        margin: auto;
+    }
+    
+    .title-and-bg h1 {
+        padding: 0;
+        max-width: 340px;
+    }
+    
+    #our-story-our-skills {
+        padding-top: 30px;
+    }
+    
+    #our-story-our-skills .container {
+        flex-direction: column;
+    }
+    
+    #our-story-our-skills-img {
+        object-fit: cover;
+        width: auto;
+        height: 340px;
+        object-position: 50% 90%;
+    }
+    
+    .text-wrapper {
+        width: auto;
+    }
+    
+    #cards {
+        flex-direction: column;
+    }
+    
+    .card {
+        width: auto;
+    }
+    
+    .card img {
+        height: 300px;
+        object-fit: cover;
+        object-position: 50% 2%;
+    }
+}
+
+@media (max-width: 650px){
+    .title-and-bg h1 {
+        padding: 0;
+        max-width: 240px;
+    } 
+}

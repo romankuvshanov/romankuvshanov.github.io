@@ -1,0 +1,328 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.col-1-3 {
+    width: 33.33%;
+    display: inline-block;
+}
+
+.container {
+    max-width: 910px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+header {
+    background: url(../img/first-bg.jpg) no-repeat center top / cover;
+    min-height: 100vh;
+}
+
+#logo {
+    margin-top: 44px;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 54px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-left: 40px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.title-and-button {
+    padding-bottom: 50px;
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 180px;
+    font-weight: normal;
+}
+
+header h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.button {
+    text-decoration: none;
+    background: #FED136;
+    color: #484543;
+    border-radius: 3px;
+    display: block;
+    max-width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.titles h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.titles h2 {
+    color: #777;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: normal;
+    margin-bottom: 80px;
+}
+
+section {
+    padding: 120px 0;
+}
+
+.service-item {
+    text-align: center;
+    padding: 0 5px;
+}
+
+.service-item h1 {
+    font-size: 18px;
+    margin: 25px 0 15px 0;
+}
+
+.service-item p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5em;
+}
+
+.service-item img {
+    max-width: 40%;
+}
+
+#portfolio {
+    background: #f7f7f7;
+}
+
+.works img {
+    width: 30%;
+}
+
+img[alt="Work 1"] {
+    margin-right: 5%;
+}
+
+img[alt="Work 3"] {
+    margin-left: 5%;
+} 
+
+.sign h1, h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.sign h2 {
+    text-transform: none;
+}
+
+.sign p {
+    font-size: 14px;
+    color: #777;
+    margin: 14px 0 0 0;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    width: 52%;
+}
+
+.block {
+    margin-bottom: 90px;
+}
+
+.block:last-child {
+    margin: 0;
+}
+
+#about-us .flex-box {
+    justify-content: flex-start;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+footer p {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
+
+footer {
+    padding-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    header h1, .titles h1 {
+        font-size: 30px;
+    }
+    
+    header h2 {
+        font-size: 55px;
+    }
+    
+}
+
+@media (max-width: 630px){
+    #logo {
+        padding-top: 44px;
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+    
+    nav {
+        float: none;
+        text-align: center;
+        margin-top: 34px;
+    }
+    
+    .menu li {
+        float: none;
+        margin-left: 0;
+        margin-bottom: 9px;
+    }
+    
+    .menu a {
+        font-size: 16px;
+    }
+    
+    header h1 {
+        margin-top: 100px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    header h2 {
+        font-size: 45px;
+        margin: 10px 0;
+    }
+    
+    .button {
+        margin-top: 30px;
+    }
+    
+    section {
+        padding: 70px 0;
+    }
+    
+    .titles h1 {
+        font-size: 25px;
+    }
+    
+    .titles h2 {
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+    
+    #services .flex-box {
+        flex-direction: column;
+    }
+    
+    .service-item {
+        margin-bottom: 20px;
+    }
+    
+    .service-item:last-child {
+        margin-bottom: 0;
+    }
+    
+    .works {
+        text-align: center;
+    }
+    
+    img[alt="Work 1"] {
+        margin-right: 0;
+    }
+    
+    img[alt="Work 3"] {
+        margin-left: 0;
+    }
+    
+    .works img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .works img:last-child {
+        margin-bottom: 0;
+    }
+    
+    #about-us .flex-box {
+        flex-direction: column-reverse;
+    }
+    
+    .sign {
+        text-align: center;
+        margin-top: 15px;
+        width: inherit;
+    }
+    
+    .image {
+        text-align: center;
+        width: inherit;
+    }
+    
+    .image img {
+        width: 120px;
+    }
+}

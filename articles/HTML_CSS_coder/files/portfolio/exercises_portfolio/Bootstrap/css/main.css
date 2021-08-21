@@ -1,0 +1,17 @@
+.col {
+    background: deepskyblue;
+    border: 1px solid;
+    text-align: center;
+}
+
+.row div:not(.row) {
+    background: deepskyblue;
+    border: 1px solid;
+    text-align: center;
+}
+
+.flex .row {
+    min-height: 10rem;
+    background-color: #a3a8ba;
+    margin: 10px 0;
+}

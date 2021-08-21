@@ -1,0 +1,313 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title-and-bg {
+    height: 350px;
+    background: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.title-and-bg .container {
+    margin: auto 0 auto 87px;
+}
+
+
+.title-and-bg h1 {
+    font-weight: 300;
+    font-size: 48px;
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    display: inline-block;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+    padding: 0 40px;
+}
+
+.title-and-bg h2, #our-story-our-skills h1 {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-top: 34px;
+}
+
+#tiles {
+    background: #fafafa;
+}
+
+#tiles .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 1570px;
+    align-content: space-between;
+    padding-top: 35px;
+}
+
+section:not(#tiles):not(.title-and-bg) {
+    width: 30%;
+}
+
+.blogpost {
+    background: white;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.text {
+    padding: 40px 24px 40px 40px;
+    box-sizing: border-box;
+}
+
+.tag {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 17px;
+    border-radius: 3px;
+    background: black;
+    display: inline-block;
+    color: white;
+}
+
+.blogpost img {
+    width: 100%;
+}
+
+.blogpost h1 {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.blogpost h2 {
+    font-size: 13px;
+    margin-top: 13px;
+    color: #ccc;
+}
+
+.fa-user {
+    margin-right: 6px;
+}
+
+.blogpost p:not(.tag) {
+    font-size: 13px;
+    color: #777;
+    line-height: 24px;
+    margin-top: 29px;
+}
+
+.blogpost p.data-share-like {
+    margin-top: 36px;
+}
+
+.fa-calendar-alt {
+    margin-right: 7px;
+}
+
+.fa-heart {
+    float: right;
+    margin-top: 5px;
+    margin-left: 25px;
+}  
+
+.fa-share-alt {
+    float: right;
+    margin-top: 5px;
+}
+
+#image-hover {
+    background-image: url(../img/blog1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#image-hover:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/blog1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#image-hover:hover h2, #image-hover:hover .data-share-like {
+    color: #ccc;
+}
+
+#image-hover:hover .info {
+    color: #a1a1a1;
+}
+
+.video {
+    
+}
+
+video {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    position: relative;
+}
+
+input[type="search"] {
+    font-size: 15px;
+    font-style: italic;
+    color: #b7b7b7;
+    height: 60px;
+    border: none;
+    padding-left: 30px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form button {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+form .fas {
+    color: white;
+    background: #999;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+section.section-with-triangle {
+   
+    padding-bottom: 30px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.section-with-triangle h1 {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    background: #ebebeb;
+    padding: 9px 0;
+    text-transform: uppercase;
+    letter-spacing: 7.5px;
+    position: relative;
+}
+
+.section-with-triangle h1::before {
+    content: '';
+    position: absolute;
+    left: 49%;
+    top: 40px;
+    border: 7px solid transparent;
+    border-top: 7px solid #ebebeb;
+}
+
+.section-with-triangle div {
+    padding: 25px 30px 0 30px;
+    background: white;
+}
+
+
+.section-with-triangle img {
+    height: 65px;
+    width: 89px;
+    object-fit: cover;
+    float: left;
+    margin-right: 17px;
+    margin-top: 0;
+}
+
+.section-with-triangle div h2 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.section-with-triangle div time {
+    font-size: 13px;
+    font-weight: 300;
+    color: #777;
+}
+
+.section-with-triangle a {
+    text-decoration: none;
+    color: #9c9c9c;
+    font-size: 13px;
+    padding: 7px 15px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.section-with-triangle a:hover {
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.section-with-triangle .a-wrapper {
+    padding: 24.5px 30px 0 30px;
+    text-align: center;
+}
+
+.imgs {
+    text-align: center;
+}
+
+.imgs h1 {
+    margin-bottom: 24.5px;
+}
+
+.imgs img {
+    float: none;
+    margin-right: 0;
+}
+
+.search {
+    
+}
+
+@media (max-width:1050px) {
+    #tiles .container {
+        max-height: none;
+    }
+    
+    section:not(#tiles):not(.title-and-bg) {
+        width: auto;
+    }
+    
+    .section-with-triangle div {
+        padding: 50px 30px 0 30px;
+    }
+}
+
+@media (max-width:768px) {
+    
+    .title-and-bg .container {
+        margin: auto;
+    }
+    
+    .title-and-bg h1 {
+        padding: 0;
+        max-width: 340px;
+    }
+}
+
+@media (max-width:425px) {
+    #tiles .container {
+        max-height: none;
+    }
+    
+    section:not(#tiles) {
+        width: auto;
+    }
+}

@@ -1,0 +1,533 @@
+/* Общие стили*/
+
+@font-face {
+    font-family: "HeliosCond-site";
+    src: url("../fonts/HeliosCondLight.ttf");
+    font-weight: 300; 
+}
+
+@font-face {
+    font-family: "HeliosCond-site";
+    src: url("../fonts/HeliosCondBlackC.ttf");
+    font-weight: 900; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "HeliosCond-site";
+    font-weight: 300;
+}
+
+.container {
+    padding: 0 45px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.outline-button {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FFFF00;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: 2px solid white;
+    display: inline-block;
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.title-with-back {
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.title-with-back::before {
+    content: '';
+    height: 130px;
+    width: 115px;
+    display: inline-block;
+    position: absolute;
+    bottom: -10px;
+    z-index: -1;
+    left: -10px;
+}
+
+section, footer {
+    min-width: 1250px;
+}
+
+/* Header + section.main */
+
+header {
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+header img {
+    height: 190px;
+}
+
+header nav {
+    margin-top: 25px;
+    position: relative;
+    right: 3%;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 45px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    
+}
+
+header li:last-child {
+    margin-right: 0;
+}
+
+header .contacts {
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+header .contacts span {
+    margin-left: 18px;
+}
+
+section.main {
+    background: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.main .container {
+    text-align: center;
+}
+
+.main h1 {
+    font-weight: 900;
+    font-size: 69px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.main h1 span {
+    font-size: 41px;
+    font-weight: 900;
+    display: block;
+}
+
+.main p {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* section.tariffs */
+
+.tariffs h1 {
+    
+}
+
+.tariffs h1::before {
+    background: #E6E6E6;
+}
+
+.rides {
+    margin-top: -55px;
+}
+
+.tariffs .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 55px;
+}
+
+.tariffs .grid p {
+    font-size: 24px;
+}
+
+.tariffs .events p {
+    max-width: 330px;
+    margin: 0 auto;
+}
+
+.tariffs h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #505051;
+    margin-left: 17%;
+}
+
+.tariffs .rides p {
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.tariffs .grid img {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.tariffs .price {
+    color: #FF0000;
+    font-weight: 900;
+}
+
+.tariffs .rides p.about-ride {
+    margin-top: 35px;
+    color: #505051;
+    margin-bottom: 110px;
+}
+
+/* section.video */
+
+.video {
+    background: #F5F5F5;
+}
+
+.parallelepipeds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 55px;
+}
+
+.medium {
+    width: 257px;
+    height: 558px;
+    background: #FFFF00;
+    display: inline-block;
+    margin-right: 30px;
+    -webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+            transform: skew(-20deg);
+}
+
+.large {
+    width: 327px;
+    height: 621px;
+    background: #FFFF00;
+    display: inline-block;
+    margin-right: 30px;
+    -webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+            transform: skew(-20deg);
+}
+
+.small {
+    width: 207px;
+    height: 421px;
+    background: #FFFF00;
+    display: inline-block;
+    -webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+            transform: skew(-20deg);
+}
+
+.video .content {
+    margin: 0 auto;
+    margin-top: -550px;
+    z-index: 1;
+    position: relative;
+    max-width: 1100px;
+}
+
+.video .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 55px;
+}
+
+.video h1 {
+    font-weight: 900;
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.video h1 span {
+    font-size: 41px;
+    color: #FF0000;
+    font-weight: 900;
+}
+
+.video h2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #505051;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.tv {
+    margin-top: -45px;
+}
+
+.presentation iframe {
+    margin-bottom: 50px;
+}
+
+/* section.know-more */
+
+.know-more {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    background: url(../img/bg_know_more.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.know-more h1 {
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.know-more h2 {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+form .outline-button {
+    background: transparent;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.know-more form.flex {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.know-more form input {
+    padding: 17px 30px;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 26px;
+}
+
+.know-more p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* section.our-services */
+
+.our-services img {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.our-services h1::before {
+    background: #FFFF00;
+    margin-bottom: 45px;
+}
+
+/* section.compare */
+
+.compare {
+    padding: 70px 0;
+    background: url(../img/bg_compare.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.compare::before {
+    content: '';
+}
+
+.compare .grid.titles {
+    overflow: visible;
+}
+
+.compare .titles::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    bottom: -500px;
+    height: 1000px;
+    background: white;
+    right: -48.3%;
+    transform: skew(-9deg);
+}
+
+.compare h1 {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 140px;
+    z-index: 1;
+    position: relative;
+}
+
+.compare h1 span {
+    color: #FF0000;
+    font-weight: 900;
+}
+
+.compare .grid {
+    grid-template-columns: 1fr 1fr;
+    max-width: 1150px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.compare .arguments::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 53%;
+    bottom: 0;
+    height: 100%;
+    background: #FFFF00;
+    right: 0;
+    transform: skew(-9deg);
+}
+
+.compare .grid div {
+    background: rgba(245, 245, 245, 0.5);
+}
+
+.compare .grid .asl {
+    background: #FFFF00;
+}
+
+.compare h2 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 13px;
+    z-index: 1;
+    position: relative;
+}
+
+.compare .arguments ul {
+    padding-top: 10px;
+}
+
+.compare .arguments li {
+    list-style-type: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    z-index: 1;
+    position: relative;
+}
+
+/* section.our-goal */
+
+.our-goal {
+    padding: 70px 0;
+    background: url(../img/bg_our_goal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.our-goal h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.our-goal h1 span {
+    color: #FF0000;
+    font-weight: 900;
+}
+
+.our-goal .flex {
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.benefit p {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.benefit img {
+    width: 157px;
+    margin-bottom: 15px;
+}
+
+/* footer */
+
+footer {
+    background: black;
+    color: white;
+    padding: 25px 0;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+.text-left {
+    font-size: 22px;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.text-right {
+    align-self: flex-start;
+    padding-bottom: 45px;
+    padding-top: 25px;
+}
+
+.text-right p, .text-right p span {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.text-right p span {
+    font-size: 53px;
+    margin-top: 5px;
+    display: block;
+}
+
+footer .outline-button {
+    padding: 12px 30px;
+    font-size: 26px;
+    margin: 11px 0;
+}

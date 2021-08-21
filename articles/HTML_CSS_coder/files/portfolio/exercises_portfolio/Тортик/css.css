@@ -1,0 +1,15 @@
+div {
+    width: 50%;
+    position: relative;
+}
+
+.icon {
+    width: 10%;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+
+.cake {
+    width: 100%;
+}

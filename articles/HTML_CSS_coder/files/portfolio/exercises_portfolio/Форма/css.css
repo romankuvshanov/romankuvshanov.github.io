@@ -1,0 +1,49 @@
+textarea {
+    resize: none;
+}
+
+body {
+    background-color: #18326D;
+}
+
+form {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #DCDCFF;
+    background: #2B417A;
+    color: #8DACFE;
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0;
+}
+
+.title {
+    width: 100px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.p-input {
+    width: 59%;
+}
+
+input:not([type="submit"]), textarea {
+    box-sizing: border-box;
+    width: 100%;
+    background: #182A50;
+    border: none;
+}
+
+input[type="submit"] {
+    margin-left: 109px;
+    background: #0D1321;
+    color: #536593;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
